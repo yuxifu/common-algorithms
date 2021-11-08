@@ -1,22 +1,23 @@
 package com.f21a.algorithm;
 
+import com.f21a.algorithm.array.MaximumProductSubarray;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
 public class MaximumProductSubarrayTest {
 
-    int[] nums = {2, 3, -2, 4};
-
     @Test
-    public void testThreeSumNums1() {
-        int result = MaximumProductSubarray.maxProduct(nums);
+    public void testMaxProduct() {
+        int[] nums = {2, 3, -2, 4};
+        int result = new MaximumProductSubarray().maxProduct(nums);
         assertEquals(6, result);
     }
 
     @Test
-    public void testThreeSum2Nums1() {
-        int result = MaximumProductSubarray.maxProduct(nums);
+    public void testMaxProduct2() {
+        int[] nums = {2, 3, -2, 4};
+        int result = new MaximumProductSubarray().maxProduct2(nums);
         assertEquals(6, result);
     }
 }

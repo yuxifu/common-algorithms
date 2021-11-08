@@ -1,5 +1,6 @@
 package com.f21a.algorithm;
 
+import com.f21a.algorithm.array.ThreeSum;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -17,7 +18,7 @@ public class ThreeSumTest {
 
     @Test
     public void testThreeSum() {
-        List<List<Integer>> ans = ThreeSum.threeSum(nums);
+        List<List<Integer>> ans = new ThreeSum().threeSum(nums);
         assertEquals(4, ans.size());
         Assert.assertEquals(Arrays.asList(-4, 2, 2), ans.get(0));
         Assert.assertEquals(Arrays.asList(-1, -1, 2), ans.get(1));
@@ -27,7 +28,7 @@ public class ThreeSumTest {
 
     @Test
     public void testThreeSum2() {
-        List<List<Integer>> ans = ThreeSum.threeSum2(nums);
+        List<List<Integer>> ans = new ThreeSum().threeSum2(nums);
         assertEquals(4, ans.size());
         Assert.assertEquals(Arrays.asList(-4, 2, 2), ans.get(0));
         Assert.assertEquals(Arrays.asList(-1, -1, 2), ans.get(1));

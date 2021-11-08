@@ -1,10 +1,10 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.array;
 
 /**
  * Created by gouthamvidyapradhan on 02/04/2017. Find the contiguous subarray within an array
  * (containing at least one number) which has the largest product.
- *
- * <p>For example, given the array [2,3,-2,4], the contiguous subarray [2,3] has the largest product
+ * <p>
+ * For example, given the array [2,3,-2,4], the contiguous subarray [2,3] has the largest product
  * = 6.
  */
 public class MaximumProductSubarray {
@@ -16,10 +16,10 @@ public class MaximumProductSubarray {
      */
     public static void main(String[] args) throws Exception {
         int[] A = {2, 3, -2, 4};
-        System.out.println(MaximumProductSubarray.maxProduct2(A));
+        System.out.println(new MaximumProductSubarray().maxProduct2(A));
     }
 
-    public static int maxProduct(int[] nums) {
+    public int maxProduct(int[] nums) {
         if (nums.length == 1) return nums[0];
         int min = nums[0];
         int max = nums[0];
@@ -33,7 +33,7 @@ public class MaximumProductSubarray {
         return result;
     }
 
-    public static int maxProduct2(int[] nums) {
+    public int maxProduct2(int[] nums) {
         if (nums.length == 1) return nums[0];
         int min = nums[0];
         int max = nums[0];
