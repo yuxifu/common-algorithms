@@ -1,6 +1,5 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.array;
 
-import com.f21a.algorithm.array.ThreeSum;
 import org.junit.Assert;
 import org.junit.Test;
 

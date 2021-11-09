@@ -1,6 +1,5 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.string;
 
-import com.f21a.algorithm.string.ValidParentheses;
 import org.junit.Assert;
 import org.junit.Test;
 

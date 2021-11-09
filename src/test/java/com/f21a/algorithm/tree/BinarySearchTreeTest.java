@@ -1,6 +1,5 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.tree;
 
-import com.f21a.algorithm.tree.BinarySearchTree;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -22,9 +21,9 @@ public class BinarySearchTreeTest {
            20   40  60   80 */
         tree.insert(50);
         tree.insert(30);
+        tree.insert(70);
         tree.insert(20);
         tree.insert(40);
-        tree.insert(70);
         tree.insert(60);
         tree.insert(80);
 

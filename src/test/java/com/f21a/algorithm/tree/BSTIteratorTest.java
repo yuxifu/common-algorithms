@@ -1,7 +1,5 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.tree;
 
-import com.f21a.algorithm.tree.BSTIterator;
-import com.f21a.algorithm.tree.BinarySearchTree;
 import org.junit.Test;
 
 import java.util.Arrays;

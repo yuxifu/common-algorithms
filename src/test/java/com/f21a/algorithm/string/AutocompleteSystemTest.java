@@ -1,6 +1,5 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.string;
 
-import com.f21a.algorithm.string.AutocompleteSystem;
 import org.junit.Test;
 
 import java.util.Arrays;

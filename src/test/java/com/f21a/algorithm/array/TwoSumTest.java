@@ -1,6 +1,5 @@
-package com.f21a.algorithm;
+package com.f21a.algorithm.array;
 
-import com.f21a.algorithm.array.TwoSum;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
