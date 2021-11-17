@@ -24,7 +24,7 @@ public class TopKFrequentElementsTest {
     @Test
     public void testTopKFrequentElements1Examples() {
         assertArrayEquals(new int[]{1, 2}, new TopKFrequentElements().topKFrequent(
-                new int[]{1,1,1,2,2,3}, 2));
+                new int[]{1, 1, 1, 2, 2, 3}, 2));
         assertArrayEquals(new int[]{1}, new TopKFrequentElements().topKFrequent(
                 new int[]{1}, 1));
         assertArrayEquals(new int[]{-1, 1}, new TopKFrequentElements().topKFrequent(
@@ -34,7 +34,7 @@ public class TopKFrequentElementsTest {
     @Test
     public void testTopKFrequentElements2Examples() {
         assertEquals(Arrays.asList(1, 2), new TopKFrequentElements().topKFrequent2(
-                new int[]{1,1,1,2,2,3}, 2));
+                new int[]{1, 1, 1, 2, 2, 3}, 2));
         assertEquals(Arrays.asList(1), new TopKFrequentElements().topKFrequent2(
                 new int[]{1}, 1));
         assertEquals(Arrays.asList(-1, 1), new TopKFrequentElements().topKFrequent2(
@@ -44,7 +44,7 @@ public class TopKFrequentElementsTest {
     @Test
     public void testTopKFrequentElements3Examples() {
         assertEquals(Arrays.asList(1, 2), new TopKFrequentElements().topKFrequent3(
-                new int[]{1,1,1,2,2,3}, 2));
+                new int[]{1, 1, 1, 2, 2, 3}, 2));
         assertEquals(Arrays.asList(1), new TopKFrequentElements().topKFrequent3(
                 new int[]{1}, 1));
         assertEquals(Arrays.asList(-1, 1), new TopKFrequentElements().topKFrequent3(

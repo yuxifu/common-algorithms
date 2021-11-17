@@ -1,4 +1,4 @@
-package com.f21a.algorithm.priorityqueue;
+package com.f21a.algorithm.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,5 +41,20 @@ public class ListNode {
             cur = cur.next;
         }
         return numList;
+    }
+
+    public static void linkTailTo(ListNode head, int target) {
+        // assume no cycle in the list
+        ListNode targetNode = null;
+        while (head != null) {
+            if (head.val == target) {
+                targetNode = head;
+            }
+            if (head.next == null) {
+                head.next = targetNode;
+                return;
+            }
+            head = head.next;
+        }
     }
 }
